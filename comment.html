@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Narrator-Comment</title>
+		<link type="text/css" rel="stylesheet" href="css/index.css" />
+		<link type="text/css" rel="stylesheet" href="css/comment.css" />
+		<script type="text/javascript" src="js/comment.js"></script>
+		<link rel="shortcut icon"  href="img/logo.png" >
+	</head>
+	<body>
+		<header class="horizontal">
+			<nav class="horizontal" style="width: 100%;">
+				<div id="logo">Narrator</div>
+				<ul class="horizontal">
+					<li class="list-item center">
+						<a href="index.html">Home</a>
+					</li>
+					<li class="list-item center">
+						<a href="intro.html">Intro</a>
+					</li>
+					<li class="list-item center">
+						<a href="friend.html">Friend</a>
+					</li>
+					<li class="list-item center">
+						<a href="comment.html">Comment</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<div class="center comment-wrapper" style="height: 320px;">
+			<div id="owner">
+				<p class="title">主人寄语</p>
+				<div class="center owner-wrapper">
+					<div class=" owner-quote center">
+						<span>既然上了生活的贼船</span>
+						<br />
+						<span>那就做一个快乐的海盗吧</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="center comment-wrapper">
+			<div class="zone">
+				<p class="title">发布留言</p>
+				<div id="send-comment">
+					<form>
+						<p><span class="black">昵称：</span><input type="text" id="input-name" style="width: 20%" /></p>
+						<p class="horizontal" style="align-items: flex-start;"><span class="black">内容：</span><textarea id="comment" style="width: 80%" rows="6"></textarea></p>
+						<div id="btns" class="horizontal">
+							<button id="btn-cls" onclick="onClear()">清空</button>
+							<button id="btn-pub" onclick="onPublish()">发布</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="center comment-wrapper">
+			<div class="zone">
+				<p class="title">留言区<button onclick="deleteAll()" class="btn-del">删除所有留言</button></p>
+				<div class="center">
+					<div id="comment-list"></div>
+				</div>
+
+			</div>
+		</div>
+
+
+
+		<footer class="center">
+			2020 - All rights reserved to © Narrator
+		</footer>
+	</body>
+</html>

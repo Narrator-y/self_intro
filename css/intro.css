@@ -1,0 +1,43 @@
+table {
+	width: 100%;
+	line-height: 1.5;
+	margin-top: 20px;
+}
+
+#intro {
+	margin-top: 50px;
+	width: 80%;
+	min-height: 200px;
+}
+
+.divider {
+	color: #E47D0B;
+	font-weight: bolder;
+	margin: 0 40px;
+}
+
+#info {
+	width: 70%;
+	float: left;
+	margin-top: 20px;
+}
+
+.name {
+	line-height: 15px;
+	font-size: 20px;
+	font-weight: 500;
+	font-family: "arial rounded mt bold";
+}
+
+td.caption {
+	font-weight: bold;
+	font-size: 17px;
+}
+
+td.line {
+	width: 100%;
+}
+
+.first-line {
+	font-weight: bold;
+}
